@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+$main-color: #3c3c3c;
+$additinal-color: #ffffff;
+
+body {
+	font: 300 14px/1.5 'Lato', Arial, sans-serif;
+}
+.ba-container {
+	padding: 20px 0;
+	max-width: 940px;
+	&--hero {
+		max-width: 640px;
+	}
+}
+
+.ba-header {
+	background: ##aeb9c9 url('../assets/img/hero-bg.jpg') no-repeat;
+	background-size: cover;
+	color: $main-color;
+	height: 650px;
+	text-align: center;
+	padding: 284px 0 384px;
+	min-height: 100vh;
+	font-size: 15px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	line-height: 2;
+	&__title {
+		letter-spacing: .16em;
+		font-weight: 700;
+		font-size: 54px;
+	}
+}
+
+
